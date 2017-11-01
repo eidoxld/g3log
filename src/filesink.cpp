@@ -47,7 +47,7 @@ namespace g3 {
       filestream() << exit_msg << std::flush;
 
       exit_msg.append("Log file at: [").append(_log_file_with_path).append("]\n");
-      std::cerr << exit_msg << std::flush;
+      std::cout << exit_msg << std::flush;
    }
 
    // The actual log receiving function
